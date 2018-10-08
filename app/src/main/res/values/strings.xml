@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EsameFSESpinelli</string>
+    <string name="insert_email">Inserisci email</string>
+    <string name="insert_pw">Inserisci password</string>
+    <string name="button_login">Login</string>
+    <string name="success">Login effettuato</string>
+    <string name="noemail">Inserire email valida</string>
+    <string name="noemailpw">Inserire email e password</string>
+    <string name="nopassword">La password deve essere di almeno 6 caratteri</string>
+</resources>
