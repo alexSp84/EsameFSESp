@@ -5,6 +5,13 @@
     <string name="button_login">Login</string>
     <string name="success">Login effettuato</string>
     <string name="noemail">Inserire email valida</string>
-    <string name="noemailpw">Inserire email e password</string>
     <string name="nopassword">La password deve essere di almeno 6 caratteri</string>
+    <string name="logout">Logout</string>
+    <string name="contact_page">Contatti</string>
+    <string name="dialog_contact_title">Nuovo contatto</string>
+    <string name="ok">Ok</string>
+    <string name="annulla">Annulla</string>
+    <string name="button_rubrica">Rubrica</string>
+    <string name="insert_name">Inserire nome</string>
+    <string name="insert_phone">Inserire cellulare</string>
 </resources>

@@ -1,0 +1,21 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_ed_txt"
+        android:hint="@string/insert_name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_ed_txt"
+        android:inputType="phone"
+        android:hint="@string/insert_phone"
+        />
+
+</LinearLayout>

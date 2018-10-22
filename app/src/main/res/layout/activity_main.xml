@@ -1,7 +1,6 @@
-<LinearLayout
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <EditText
@@ -11,6 +10,8 @@
         android:hint="@string/insert_email"
         android:textAlignment="center"
         android:inputType="textEmailAddress"
+        android:textSize="24dp"
+        android:layout_above="@id/password_ed"
         />
 
     <EditText
@@ -20,6 +21,8 @@
         android:hint="@string/insert_pw"
         android:textAlignment="center"
         android:inputType="textPassword"
+        android:textSize="24dp"
+        android:layout_centerInParent="true"
         />
 
     <Button
@@ -27,6 +30,15 @@
         android:layout_height="wrap_content"
         android:text="@string/button_login"
         android:id="@+id/login"
+        android:layout_alignParentBottom="true"
         />
 
-</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_rubrica"
+        android:id="@+id/rubrica"
+        android:layout_above="@id/login"
+        />
+
+</RelativeLayout>
